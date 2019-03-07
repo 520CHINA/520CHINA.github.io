@@ -3,10 +3,11 @@ IPA 文件安装器
 - 支持文件分享安装
 - 支持主程序运行选择文件安装
 - 安装完成后请返回运行界面选择后续操作
+- http://520china.github.io/domiso/jsbox/installer.js
 */
 
 var port_number = 8080
-var plist_url = "itms-services://?action=download-manifest&url=http://520china.github.io/blob/master/domiso/jsbox/jsbox.plist"
+var plist_url = "itms-services://?action=download-manifest&url=http://520china.github.io/domiso/jsbox/jsbox.plist"
 
 // 从应用内启动
 if ($app.env == $env.app) {
