@@ -7,7 +7,7 @@ IPA 文件安装器
 */
 
 var port_number = 8080
-var plist_url = "itms-services://?action=download-manifest&url=http://520china.github.io/domiso/jsbox/jsbox.plist"
+var plist_url = "itms-services://?action=download-manifest&url=https://520china.github.io/domiso/jsbox/jsbox.plist"
 
 // 从应用内启动
 if ($app.env == $env.app) {
